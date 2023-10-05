@@ -1,14 +1,86 @@
-
 <!-- Création d'un site web pour l'ecf d'entrainement html,css,bootstrap -->
 
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chez Tiago agit pour aider les personnes, sans condition, à accéder à l'apéro à tout moment de l'année"
+    />
+    <title>Chez Tiago - Association pour l'apéro pour tous !</title>
+    <link rel="stylesheet" href="/assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- START : Header -->
+    <header>
+      <!-- Barre de navigation -->
+      <nav class="navbar navbar-expand-md bg-body-tertiary text-uppercase fw-bolder">
+        <div class="container-fluid">
+          <a href="index.html" class="navbar-brand d-md-none">
+            <img
+              src="/assets/img/chez-tiago.png"
+              alt="Logo association - Chez Tiago"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-burger"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-burger">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link active">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="action.html"
+                  title="Lien vers les actions accomplies"
+                  class="nav-link"
+                  >Nos action</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="navbar-brand d-none d-md-block">
+                  <img
+                    src="/assets/img/chez-tiago.png"
+                    alt="Logo association - Chez Tiago"
+                  />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="about.html"
+                  title="Lien vers la page à propos"
+                  class="nav-link"
+                  >À propos de nous</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="donation.html"
+                  title="Lien vers donation"
+                  class="nav-link"
+                  >Faire un don</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- END : Header -->
+
+    <script src="/assets/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
