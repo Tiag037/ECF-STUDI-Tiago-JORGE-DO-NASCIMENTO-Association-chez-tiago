@@ -1,0 +1,21 @@
+/* reset des paramètre des navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* style sur navbar */
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 0 1.1rem;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}

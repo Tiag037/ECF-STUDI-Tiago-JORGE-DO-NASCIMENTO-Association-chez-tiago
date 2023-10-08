@@ -1,28 +1,28 @@
-
 /* reset des paramètre des navigateur */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* style sur navbar */
 
-.navbar-nav{
+.navbar-nav {
     align-items: center;
 }
 
-.navbar .navbar-nav .nav-link{
+.navbar .navbar-nav .nav-link {
     padding: 0 1.1rem;
     padding: 10px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     transform: scale(1.1);
 }
 
 /* background header + présentation  */
 
-.img-header{
+.img-header {
     min-height: 100vh;
     background: url(/assets/img/image-accueil.jpg) center/cover;
     display: flex;
@@ -31,34 +31,63 @@
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 1070px){
-    .img-header{
+@media screen and (min-width: 1070px) {
+    .img-header {
         flex-direction: column;
         justify-content: space-evenly;
     }
+
 }
-    
 
 
-.img-header .presentation{
+
+.img-header .presentation {
     text-align: center;
     border: double white 3px;
     padding: 10px;
-    background:rgba(0, 0, 0, 0.178);
-    box-shadow: 0px 0px 2px rgba(0, 0,0 , 0.521);
+    background: rgba(0, 0, 0, 0.178);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.521);
     border-radius: 5px;
     backdrop-filter: blur(5px);
 }
 
-.title-h1{
+.title-h1 {
     text-transform: uppercase;
 }
 
-.friend-apero::before{
+.friend-apero::before {
     content: "\269E";
 }
 
-.friend-apero::after{
+.friend-apero::after {
     content: "\269F";
 }
 
+
+/* style des cards */
+
+.new-cards {
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 576px) {
+    .section {
+        display: flex;
+        gap: 10px;
+    }
+
+}
+
+
+
+/* footer */
+.flexbox-social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-social .social-item {
+    color: black;
+    margin: 0px 10px
+}

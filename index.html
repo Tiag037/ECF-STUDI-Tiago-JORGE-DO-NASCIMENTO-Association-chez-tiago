@@ -10,8 +10,16 @@
       content="Chez Tiago agit pour aider les personnes, sans condition, à accéder à l'apéro à tout moment de l'année"
     />
     <title>Chez Tiago - Association pour l'apéro pour tous !</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="/assets/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/assets/css/style-index.css" />
+    <link rel="stylesheet" href="/assets/css/style.css">
   </head>
 
   <body>
@@ -86,32 +94,88 @@
       </nav>
       <!-- header image de fond -->
       <div class="img-header">
-        <h1 class="presentation title-h1 fw-bolder text-white">Ensemble avec l'apéro</h1>
-        <p class="presentation text-white lead fw-normal">
-          <strong class="friend-apero">Parce que nous croyons en l'amitié, au partage et à l'apéro</strong><br>
-          L'association Chez Tiago oeuvre pour les plus démunis.
-          Aidez-nous à sillonner la France afin d'aporter une bouteille à chaque table
+        <h1 class="presentation title-h1 fw-bolder text-white">
+          Ensemble avec l'apéro
+        </h1>
+        <p class="presentation text-white lead fw-normal mx-3">
+          <strong class="friend-apero"
+            >Parce que nous croyons en l'amitié, au partage et à l'apéro</strong
+          ><br />
+          L'association Chez Tiago oeuvre pour les plus démunis. Aidez-nous à
+          sillonner la France afin d'aporter une bouteille à chaque table
         </p>
-
-    </div>
+      </div>
     </header>
     <!-- END : Header -->
 
     <!-- START : Main -->
     <main class="main bg-white">
-      <section class="container">
-        <div class="card mt-5 p-3">
-          <div class="card-header">
-            Nouveauté
-          </div>
-          <img src="/assets/img/img-card-1.jpg" alt="Photo nouvel espace pour accueil les joueurs"
-          class="card-img-top">
-          <h3 class="card-title">Tour de France</h3>
-
+      <section class="container section">
+        <div class="card1 card mt-4 p-3">
+          <div class="card-header h1">Nouveauté</div>
+          <img
+            src="/assets/img/img-card-1.jpg"
+            alt="Photo nouvel espace pour accueil "
+            class="card-img-top"
+          />
+          <h3 class="card-title mt-2 h4">Région centre</h3>
+          <hr />
+          <p class="card-text">
+            <strong class="new-cards h6">Nouveau local ouvert à Amboise</strong
+            >, celui-ci accueillera une centaine personnes catégoriser de
+            boit-sans-soif. Spécialiser dans les spiritieux, toute la
+            décortation autour a était réaliser bénévolement par les membres de
+            l'association.
+          </p>
+          <a
+            href="action.html"
+            title="Lien vers nos actions"
+            class="card-link btn btn-dark"
+          >
+            En savoir plus
+          </a>
         </div>
-        
+        <div class="card2 card mt-4 p-3">
+          <div class="card-header h3">50 000 membres</div>
+          <img
+            src="/assets/img/img-card-2.jpg"
+            alt="Photo représentant des mains qui se croise représentant l'entraide"
+            class="card-img-top"
+          />
+          <h4 class="card-title">Chiffre record</h4>
+          <p class="card-subtitle lead">Record pour l'année 2023</p>
+          <p class="card-text">
+            Avec de plus en plus de membre, l'objectif est de couvrir le plus de
+            territoire, d'accroitre notre réactivité afin d'être au plus
+            près des démunis. <br />
+            <a
+              href="about.html"
+              title="Lien vers formulaire nous rejoindre"
+              class="card-link btn btn-dark"
+              >Rejoignez-nous</a
+            >
+            plus grand nombre nous serons, plus l'apero sera à toute les tables!
+          </p>
+        </div>
       </section>
     </main>
+    <!-- END : main  -->
+
+    <!-- START : footer -->
+    <footer class="footer container-fluid bg-light mt-3 text-center">
+      <h6>Liens vers nos réseaux sociaux:</h6>
+      <ul class="flexbox-social">
+        <li>
+          <a href=""><i class="social-item fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="social-item fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href=""><i class="social-item fa-brands fa-x-twitter"></i></a>
+        </li>
+      </ul>
+    </footer>
 
     <script src="/assets/bootstrap/bootstrap.bundle.min.js"></script>
   </body>
