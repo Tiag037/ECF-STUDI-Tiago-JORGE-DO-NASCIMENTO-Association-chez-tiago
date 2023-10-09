@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    min-height: 100vh;
+}
+
 /* style sur navbar */
 
 .navbar-nav {
@@ -18,4 +22,24 @@
 
 .nav-link:hover {
     transform: scale(1.1);
+}
+
+/* footer */
+.flexbox-social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flexbox-social li:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.flexbox-social .social-item {
+    color: black;
+    margin: 0px 10px;
 }

@@ -1,25 +1,3 @@
-/* reset des paramètre des navigateur */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* style sur navbar */
-
-.navbar-nav {
-    align-items: center;
-}
-
-.navbar .navbar-nav .nav-link {
-    padding: 0 1.1rem;
-    padding: 10px;
-}
-
-.nav-link:hover {
-    transform: scale(1.1);
-}
-
 /* background header + présentation  */
 
 .img-header {
@@ -55,12 +33,8 @@
     text-transform: uppercase;
 }
 
-.friend-apero::before {
-    content: "\269E";
-}
-
-.friend-apero::after {
-    content: "\269F";
+.section{
+    padding: 20px;
 }
 
 
@@ -78,16 +52,8 @@
 
 }
 
-
-
-/* footer */
-.flexbox-social {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-.flexbox-social .social-item {
-    color: black;
-    margin: 0px 10px
+@media  screen and (min-width:860px) {
+    .section{
+        gap: 50px;
+    }
 }

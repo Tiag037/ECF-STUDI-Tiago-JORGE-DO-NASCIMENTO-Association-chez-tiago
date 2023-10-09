@@ -1,4 +1,73 @@
-.main {
-    margin: 10px;
-    border: solid rgba(0, 0, 0, 0.048) 2px;
+.body {
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+}
+.body{
+    padding: 15px;
+}
+
+
+.fst-section {
+    margin: ;
+    padding: 60px 10px;
+    min-height: 100vh;
+    background: url(/assets/img/puit-sans-fond.jpg) center / cover;
+    word-spacing: 3px;
+    line-height: 30px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    border-radius: 25px 25px 0 0;
+}
+
+.container-img {
+    display: none;
+}
+
+.presentation {
+    background-color: rgba(0, 0, 0, 0.496);
+}
+
+@media screen and (min-width: 576px) {
+    .fst-section {
+        background: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        padding: 0px;
+    }
+
+    .container-img {
+        display: block;
+    }
+
+
+    .presentation {
+        background: none;
+        color: black;
+    }
+
+}
+
+@media screen and (min-width: 860px) {
+    .fst-section {
+        background: initial;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .container-img {
+        display: block;
+        width: 50vw;
+    }
+
+    .fst-section-text {
+        width: 50vw;
+        background-color: rgba(27, 9, 9, 0.047);
+        padding: 15px;
+        color: black;
+    }
+
 }
