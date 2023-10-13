@@ -1,9 +1,10 @@
 .body {
     background-color: #DCD9D4;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
-    background-blend-mode: soft-light,screen;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), radial-gradient(at 50% 0%, rgba(255, 255, 255, 0.10) 0%, rgba(0, 0, 0, 0.50) 50%);
+    background-blend-mode: soft-light, screen;
 }
-.body{
+
+.body {
     padding: 15px;
 }
 
@@ -26,6 +27,16 @@
 
 .presentation {
     background-color: rgba(0, 0, 0, 0.496);
+}
+
+.presentation ::selection {
+    background-color: wheat;
+    color: black;
+}
+
+.button {
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 576px) {
