@@ -69,3 +69,7 @@
     display: grid;
 }
 
+.cuite-center::before,
+.cuite-center::after{
+    content: '"';
+}
