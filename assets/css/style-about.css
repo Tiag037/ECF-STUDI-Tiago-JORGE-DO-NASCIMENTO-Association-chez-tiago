@@ -10,7 +10,6 @@
 
 
 .fst-section {
-    margin: ;
     padding: 60px 10px;
     min-height: 100vh;
     background: url(/assets/img/puit-sans-fond.jpg) center / cover;
@@ -100,8 +99,6 @@
 
 }
 
-
-/* revoir la list et le scale !!! */
 .contact-item:hover {
     background-color: beige;
     border-radius: 99999px;
