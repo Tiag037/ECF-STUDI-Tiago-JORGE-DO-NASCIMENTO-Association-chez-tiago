@@ -56,7 +56,12 @@
     }
 }
 
+
+
 @media screen and (min-width: 975px){
+    .title::after{
+        display: none;
+    }
     .container-body{
         min-width: 100%;
         display: flex;
@@ -69,17 +74,49 @@
         width: 40%;
         padding: 0;
         margin: 0;
-    
+        border: 0;
+        color: antiquewhite;
+        background: url(../img/background-card-large.jpg) left / cover;
+    }
+    .body-card p{
+        font-weight:bolder;
+        background-color:rgba(65, 105, 225, 0.138);
+        color: antiquewhite;
+        padding: 5px;
     }
 
-}
-
-@media screen and (min-width: 975px) {
-    .title::after{
-        display: none;
+    .body-card h4{
+        background: antiquewhite;
+        color: royalblue;
+        padding: 5px;
+        border-radius: 9999px;
+        text-align: center;
     }
 }
 
+@media  screen and (min-width:1400px) {
+    .body-card{
+        width: 40%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        color: antiquewhite;
+        background: url(../img/background-card-large.jpg) center / cover;
+    }
+        .body-card p{
+        font-weight:normal;
+        background: none;
+        color: antiquewhite;
+        padding: 5px;
+    }
+
+    .body-card h4{
+        background: none;
+        color: antiquewhite;
+        padding: 5px;
+        text-align: start
+    }
+}
 .cuite-center::before,
 .cuite-center::after{
     content: '"';
@@ -91,7 +128,21 @@
 /* ne pas oublier d'insérer une image dans la card en desktop pour réduire l'image */
 
 
+
 /* portfolio de l'association  */
+.heart{
+    opacity: 0;
+    animation: heart 5s infinite;
+}
+@keyframes heart {
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+
+    }
+}
 .portfolio-grid{
     min-width: 100vw,
 }
@@ -114,7 +165,7 @@
     .portfolio-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 300px 300px 300px;
+        grid-template-rows: 300px 300px;
         gap: 15px;
     }
     
