@@ -1,0 +1,16 @@
+.donation{
+    width: 100%;
+}
+
+.donation-list{
+    list-style: none;
+}
+.donation-item{
+    padding-bottom: 10px;
+}
+
+.donation-item-link{
+    color: royalblue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
