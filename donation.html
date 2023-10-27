@@ -93,7 +93,6 @@
     <!-- END : Header -->
     <main class="container-fluid mt-3">
       <section class="container-donation">
-        <div class="elipse"></div>
         <h1 class="text-center">Nous soutenir</h1>
         <p>
           Chaque don et pour nous un grand pas pour atteindre notre but. Comme
@@ -117,45 +116,14 @@
         <h2 class="mt-3">Plusieurs façons de faire un don</h2>
         <ul class="donation-list">
           <li class="donation-item donation-item-modal">
-            <a href="#donation-modal1" type="button" class="donation-item-link"
-              >Le don ponctuel</a
-            >
+            <span class="donation-item-name">Le don ponctuel</span>
             Vous pouvez nous faire un don une fois afin de soutenir nos actions
             de manière ponctuelle.
-
-            <!-- first modal -->
-            <div id="donation-modal1" class="modal-style">
-              <div class="modal-content">
-                <h3>Don ponctuel</h3>
-                <form action="#" method="get">
-
-                  <label for="fist-name" class="form-label">Votre prénom</label>
-                  <input type="text" id="first-name" class="form-control" name="first-name" required>
-
-                  <label for="name" class="form-label">Votre nom</label>
-                  <input type="text" id="name" class="form-control" required>
-
-                  <label for="email" class="form-label">Votre Email</label>
-                  <input type="email" id="email" name="email" class="form-control" required>
-
-                  <label for="don" class="form-label">Somme en €</label>
-                  <input type="number" id="first-name" class="form-control" required>
-
-                  <label for="accepted" class="form-check-label">J'accepte les conditions</label>
-                  <input type="checkbox" name="accepted" id="accepted">
-
-                  <button type="submit" class="btn btn-dark d-block mt-2">Envoyer</button>
-                  
-                </form>
-                <a href="#" class="modal-close">&times;</a>
-              </div>
-            </div>
           </li>
 
           <li class="donation-item">
-            <a href="#donation-modal2" type="button" class="donation-item-link"
-              >Le don régulier</a
-            >
+            <a href="#donation-modal2" type="button" class="donation-item-name donation-item-link"
+              >Le don régulier</a>
             Vous pouvez souscrire au prélèvement automatique afin de soutenir
             nos actions en faveur de nos bars dans la durée en étant prélevé(e)
             chaque mois.
@@ -189,12 +157,11 @@
             </div>
           </li>
           <li class="donation-item">
-            <a href="#donation-modal3" type="button" class="donation-item-link"
+            <a href="#donation-modal3" type="button" class="donation-item-name donation-item-link"
               >Faire un don en ligne</a
             >
             Notre formulaire de don en ligne est 100% sécurisé, par cryptage
-            SSL. Par carte bleue, PayPal ou Lydia, c'est simple, rapide et vous
-            permet de calculer votre réduction en instantané.
+            SSL. Par carte bleue, PayPal ou Lydia, c'est simple et rapide.
 
             <!-- third modal  -->
             <div id="donation-modal3" class="modal-style">
@@ -225,9 +192,7 @@
             </div>
           </li>
           <li class="donation-item">
-            <a href="#donation-modal4" type="button" class="donation-item-link"
-              >Faire un don par SMS</a
-            >
+            <span class="donation-item-name">Faire un don par sms</span>
             L'associationn dispose d'un numéro vous permettant de faire un don
             par SMS. Il vous suffit d'envoyer DON au 92 1664 pour effectuer un
             don de 5 €. Pour un don de 1 €, envoyez
@@ -237,71 +202,52 @@
             pour faire un don de 20 €, envoyez
             <span class="don-uppercase">sky20</span>. (uniquement en France
             métropolitaine)
-
-            <!-- 4eme modal -->
-            <div id="donation-modal4" class="modal-style">
-              <div class="modal-content">
-                <h3>Don par SMS</h3>
-                <form action="#" method="get">
-
-                  <label for="fist-name" class="form-label">Votre prénom</label>
-                  <input type="text" id="first-name" class="form-control" name="first-name" required>
-
-                  <label for="name" class="form-label">Votre nom</label>
-                  <input type="text" id="name" class="form-control" required>
-
-                  <label for="email" class="form-label">Votre Email</label>
-                  <input type="email" id="email" name="email" class="form-control" required>
-
-                  <label for="don" class="form-label">Somme en €</label>
-                  <input type="number" id="first-name" class="form-control" required>
-
-                  <label for="accepted" class="form-check-label">J'accepte les conditions</label>
-                  <input type="checkbox" name="accepted" id="accepted">
-
-                  <button type="submit" class="btn btn-dark d-block mt-2">Envoyer</button>
-                  
-                </form>
-                <a href="#" class="modal-close">&times;</a>
-              </div>
-            </div>
           </li>
+
           <li class="donation-item">
-            <a href="#donation-modal5" type="button" class="donation-item-link"
-              >Faire un don par chèque</a
-            >
-            Vous pouvez effectuer un don par chèque en l'adressant à Fondation
-            des Hôpitaux - service Donateurs - 9 rue Scribe 75 009 Paris à
-            l'ordre de « Fondation des Hôpitaux ».
-            <div id="donation-modal5" class="modal-style">
-              <div class="modal-content">
-                <h3>Don par chèque</h3>
-                <form action="#" method="get">
-
-                  <label for="fist-name" class="form-label">Votre prénom</label>
-                  <input type="text" id="first-name" class="form-control" name="first-name" required>
-
-                  <label for="name" class="form-label">Votre nom</label>
-                  <input type="text" id="name" class="form-control" required>
-
-                  <label for="email" class="form-label">Votre Email</label>
-                  <input type="email" id="email" name="email" class="form-control" required>
-
-                  <label for="don" class="form-label">Somme en €</label>
-                  <input type="number" id="first-name" class="form-control" required>
-
-                  <label for="accepted" class="form-check-label">J'accepte les conditions</label>
-                  <input type="checkbox" name="accepted" id="accepted">
-
-                  <button type="submit" class="btn btn-dark d-block mt-2">Envoyer</button>
-                  
-                </form>
-                <a href="#" class="modal-close">&times;</a>
-              </div>
-            </div>
+            <span class="donation-item-name">Faire un don par chèque</span>
+            Vous pouvez effectuer un don par chèque en l'adressant à l'Association chez Tiago
+            - service Donateurs - 9 rue tue-la-soif 37 530 Nazelle-Négron à
+            l'ordre de « Association Chez Tiago ».
           </li>
         </ul>
       </section>
+
+    <!-- Section pour devenir bénévole -->
+      <section>
+        <h2>Devenir bénévole</h2>
+        <p>Parfois le simple don ne suffit pas, on se demande si l'on ne pouvais pas mieux faire.. Et bien si ! Vous pouvez nous rejoindre dans notre combat. A temps plein ou partiel, chaque personne compte. Parmis nous vous pourrez vous épanouir à sauvez notre coutume ancestral, et bien plus encore.. vous aurez les consommations gratuites !</p>
+
+        <div>
+
+
+          <!-- tableaux de bénévoles -->
+
+          <table class="table text-center align-middle caption-top">
+            <caption>Différents bénévoles</caption>
+            <thead>
+              <tr>
+                <th scope="col">Temps par semaine</th>
+                <th scope="col">Avantages</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td >3 jours/semaine</td>
+                <td>5 boissons gratuites</td>
+                <td><button type="submit" class="btn btn-outline-dark">Inscription</button></td>
+              </tr>
+              <tr>
+                <td>Semaine entière</td>
+                <td>Boisson à volonté</td>
+                <td><button type="submit" class="btn btn-outline-dark">Inscription</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
     </main>
 
     <!-- START : footer -->

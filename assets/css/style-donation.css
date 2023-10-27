@@ -11,12 +11,24 @@
 }
 
 
-.donation-item-link{
+.donation-item-name{
     color: royalblue;
     font-weight: 700;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
+.donation-item-link{
+    border: solid 2px;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.donation-item-link:hover{
+    background: royalblue;
+    color: #DCD9D4;
+    border-radius: 3px;
+}
 .modal-style{
     visibility: hidden;
     opacity: 0;
