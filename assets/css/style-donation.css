@@ -1,3 +1,22 @@
+@media screen and (min-width:1000px) {
+    .container-presentation{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .container-presentation {
+        word-spacing: 4px;
+        border: solid rgba(22, 22, 22, 0.16);
+        background-color: rgba(0, 0, 0, 0.148);
+        padding: 10px;
+    }
+    .principal-container{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+
 .donation{
     width: 100%;
 }
@@ -53,6 +72,7 @@
     padding: 16px 32px;
     border-radius: 4px;
     position: relative;
+    margin: 20%;
 }
 
 .modal-close{
@@ -61,4 +81,8 @@
     top: 15px;
     text-decoration: none;
     color: grey;
+}
+
+textarea[name=adress]{
+    resize: none;
 }
