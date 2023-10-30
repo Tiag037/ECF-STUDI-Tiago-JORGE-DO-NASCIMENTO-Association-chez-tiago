@@ -2,7 +2,7 @@
 
 .img-header {
     min-height: 100vh;
-    background: url(/assets/img/image-accueil.jpg) center/cover;
+    background: url(../img/image-accueil.jpg) center/cover;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
