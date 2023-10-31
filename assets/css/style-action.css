@@ -122,11 +122,18 @@
     content: '"';
 }
 
-.body-card{
+.body-card,
+.body-card2{
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.264);
 }
-/* ne pas oublier d'insérer une image dans la card en desktop pour réduire l'image */
 
+.img-logo-event{
+    float: right;
+
+}
+
+
+/*!!!!!!!!!!!!!!!!!! attention !!!!!!!!!!!!!! remanier l'image cocktail halloween, et finir la card événement */
 
 
 /* portfolio de l'association  */
