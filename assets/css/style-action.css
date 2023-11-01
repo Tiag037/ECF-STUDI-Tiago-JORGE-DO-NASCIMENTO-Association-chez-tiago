@@ -92,6 +92,11 @@
         border-radius: 9999px;
         text-align: center;
     }
+    .futur-event{
+        display: flex;
+        gap: 10px;
+    }
+
 }
 
 @media  screen and (min-width:1400px) {
@@ -127,14 +132,79 @@
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.264);
 }
 
-.img-logo-event{
-    float: right;
+.container-ghost{
+    position: relative;
+    overflow: hidden;
+}
 
+.ghost-animation{
+    position: absolute;
+    filter: drop-shadow(0px 6px 3px rgba(0, 0, 0, 0.518));
+    animation: ghost 20s infinite linear;
 }
 
 
-/*!!!!!!!!!!!!!!!!!! attention !!!!!!!!!!!!!! remanier l'image cocktail halloween, et finir la card événement */
+@keyframes ghost {
+    0% {
+        top: 2%;
+        left: 2%;
+        transform: rotate(90deg);
+    }
+    10% {
+        top: 6%;
+        left: 30%;
+        transform: rotate(95deg);
+    }
+    20% {
+        top: 9%;
+        left: 60%;
+        transform: rotate(60deg);
+    }
+    30% {
+        top: 0%;
+        left: 80%;
+        transform: rotate(90deg);
+    }
+    40% {
+        top: 20%;
+        left: 120%;
+        transform: rotate(110deg);
+    }
+    50% {
+        top: 50%;
+        left: 80%;
+        transform: rotate(323deg);
+    }
+    60% {
+        top: 90%;
+        left: 90%;
+        transform: rotate(256deg);
+    }
+    70% {
+        top: 110%;
+        left: 50%;
+        transform: rotate(237deg);
+    }
+    80% {
+        top: 85%;
+        left: 30%;
+        transform: rotate(323deg);
+    }
+    90% {
+        top: 50%;
+        left: 15%;
+        transform: rotate(350deg);
+    }
+    100% {
+        top: 2%;
+        left: 2%;
+        transform: rotate(90deg);
+    }
+}
 
+.img-logo-event{
+    float: right;
+}
 
 /* portfolio de l'association  */
 .heart{
